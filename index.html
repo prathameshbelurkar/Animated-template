@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>Animated Template</title>
+    <!-- AOS.js -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="script.js"></script>
+    <!-- Navigation Script -->
+    <script defer src="navbar.js"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="pbx.png">
     <!-- Font Awesome -->
@@ -740,24 +745,7 @@
     </div>
   </footer>
   <!-- End of Footer Section -->
+  
 </body>
-<!-- AOS.js -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init(
-    {
-      delay: 200,
-      duration: 1500,
-      once: false,
-      mirror: false,
-    }
-  );
-</script>
-<!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
+
 </html>
